@@ -1,51 +1,65 @@
 /* Basic styling */
 /* Draw the lines */
 .jOrgChart .line {
-  height                : 20px;
-  width                 : 4px;
+  height: 20px;
+  width: 50%;
 }
 
 .jOrgChart .down {
-  background-color 		: black;	
-  margin 				: 0px auto;
+  background-color: black;
+  width: 2px;
+  margin: 0px auto;
 }
 
 .jOrgChart .top {
-  border-top          : 3px solid black;
+  border-top: 2px solid black;
 }
 
 .jOrgChart .left {
-  border-right          : 2px solid black;
+  border-right: 1px solid black;
 }
 
 .jOrgChart .right {
-  border-left           : 2px solid black;
+  border-left: 1px solid black;
 }
 
 /* node cell */
 .jOrgChart td {
-  text-align            : center;
-  vertical-align        : top;
-  padding               : 0;
+  text-align: center;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  float: none;
+  border: none;
+}
+
+.jOrgChart tr, .jOrgChart table {
+  border: none;
+}
+
+.jOrgChart table {
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
 /* The node */
 .jOrgChart .node {
-  background-color 		: #35363B;
-  display               : inline-block;
-  width                 : 96px;
-  height                : 60px;
-  z-index 				: 10;
-  margin               : 0 2px;
+  background-color: #fff;
+  border: 1px solid black;
+  display: inline-block;
+  width: 96px;
+  height: 60px;
+  z-index: 10;
+  margin: 0 2px;
 }
 
 /* jQuery drag 'n drop */
 
 .drag-active {
-  border-style			: dotted !important;
+  border-style: dotted !important;
 }
 
 .drop-hover {
-  border-style			: solid !important;
-  border-color 			: #E05E00 !important;
+  border-style: solid !important;
+  border-color: #f00 !important;
 }
