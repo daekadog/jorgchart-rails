@@ -1,6 +1,11 @@
 # Jorgchart::Rails
 
-TODO: Write a gem description
+jOrgChart for Rails. Bundled up jOrgChart into something useable with the Rails 3.1 asset pipeline
+
+This gem include my forked version of jOrgChart (https://github.com/gdott9/jOrgChart/tree/my-master) which adds some features waiting to be merged.
+Additionnal features :
+* render list with multiple nodes on the first level (https://github.com/wesnolte/jOrgChart/pull/34)
+* add an option to ignore space used by collapsed nodes (https://github.com/wesnolte/jOrgChart/pull/35)
 
 ## Installation
 
@@ -18,7 +23,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In application.js
+```
+//= require jquery.jorgchart
+```
+
+This gem comes with a stylesheet for default style. To use it, add the following line in application.css
+```
+//= require jquery.jorgchart
+```
 
 ## Contributing
 
