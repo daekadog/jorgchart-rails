@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["guillaume+github@dott.fr"]
   gem.description   = %q{jOrgChart for Rails 3 asset pipeline}
   gem.summary       = %q{This gem provides jOrgChart for your Rails 3 application.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/gdott9/jorgchart-rails"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
